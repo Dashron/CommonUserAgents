@@ -12,7 +12,7 @@ This document lists some of the more common user agent strings that an API might
 To improve the onboarding experience of working with an API, the provider should offer libraries in their most popular languages. One easy way of identifying an API's most popular languages is by tracking the user agent strings of incoming HTTP requests.
 
 
-| User Agent String | Source | Source Type  | Can be overriden? |
+| User Agent String | Source | Source Type  | Can be overriden by a developer? |
 |-------------------|--------|--------------|-------------------|
 | Guzzle/4.0 curl/7.21.4 PHP/5.5.7 | [Guzzle](https://github.com/guzzle/guzzle/blob/master/src/functions.php#L131) | HTTP library for PHP | Yes
 | Guzzle/4.0 PHP/5.5.7         | [Guzzle](https://github.com/guzzle/guzzle/blob/master/src/functions.php#L131) | HTTP library for PHP | Yes
