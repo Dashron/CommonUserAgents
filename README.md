@@ -9,7 +9,7 @@ The [HTTP spec](https://tools.ietf.org/html/rfc7231#section-5.5.3) asks clients 
 This document lists some of the more common user agent strings that an API might encounter. If you find any are missing, feel free to add them via pull request or create an issue!
 
 ### Why is this useful?
-APIs should offer libraries in their most popular languages to make developers lives easier. One easy way of identifying the most popular languages using an API is by tracking the user agent strings of your API clients.  If you see many clients using the same HTTP client you should investigate supporting that client.
+To improve the onboarding experience of working with an API, the provider should offer libraries in their most popular languages. One easy way of identifying an API's most popular languages is by tracking the user agent strings of incoming HTTP requests.
 
 
 | User Agent String | Source | Source Type  | Can be overriden? |
