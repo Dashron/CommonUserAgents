@@ -4,12 +4,12 @@
 The table below consists of a list of common user agent strings and the tools or libraries they are associated with.
 
 ### What is a User Agent String?
-The [HTTP spec](https://tools.ietf.org/html/rfc7231#section-5.5.3) asks clients to identify themselves by providing a header called "User-Agent". This header's history is pretty [chaotic](http://webaim.org/blog/user-agent-string-history/),  but the [spec](https://tools.ietf.org/html/rfc7231#section-5.5.3) does a good job detailing how the header should actually work. 
+The [HTTP spec](https://tools.ietf.org/html/rfc7231#section-5.5.3) asks clients to identify themselves by providing a header called "User-Agent". This header's history is pretty [chaotic](http://webaim.org/blog/user-agent-string-history/), but the [spec](https://tools.ietf.org/html/rfc7231#section-5.5.3) does a good job detailing how the header should actually work. 
 
 This document lists some of the more common user agent strings that an API might encounter. If you find any are missing, feel free to add them via pull request or create an issue!
 
 ### Why is this useful?
-To improve the onboarding experience of working with an API, the provider should offer libraries in their most popular languages. One easy way of identifying an API's most popular languages is by tracking the user agent strings of incoming HTTP requests.
+By tracking the user agent headers received by your API, you can get a sense for what languages and libraries your developers use. If you see a lot of usage in a language you don't support, it's probably worth supporting that language officially. If you see a lot of usage in a language you do support, it might mean that there is a missed opportunity with your existing library.
 
 
 | Source | Example User Agent String | Description  | Can be overriden by a developer? |
