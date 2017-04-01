@@ -22,5 +22,5 @@ By tracking the user agent headers received by your API you can get a sense for 
 | Source | Description | Can be overriden by developer? |
 |-------------------|--------|--------------|
 | [PHP Curl](http://php.net/manual/en/book.curl.php) | PHP's standard curl bindings do not assign a default user agent | Yes
-| [Node HTTP(s)](https://nodejs.org/dist/latest-v7.x/docs/api/http.html) | Node's standard request library for HTTP and HTTPS requests do not assign a default user agent | Yes
+| [Node HTTP(S)](https://nodejs.org/dist/latest-v7.x/docs/api/http.html) | Node's standard request library for HTTP and HTTPS requests do not assign a default user agent | Yes
 | [Insomnia REST client](https://insomnia.rest/) | Insomnia is a cross platform HTTP request tool intended to help with API development |  Yes
