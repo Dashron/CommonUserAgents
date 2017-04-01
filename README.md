@@ -9,7 +9,7 @@ The [HTTP spec](https://tools.ietf.org/html/rfc7231#section-5.5.3) asks clients 
 This document lists some of the more common user agent strings that an API might encounter. If you find any are missing, feel free to add them via pull request or create an issue!
 
 ### Why is this useful?
-By tracking the user agent headers received by your API, you can get a sense for what languages and libraries your developers use. If you see a lot of usage in a language you don't support, it's probably worth supporting that language officially. If you see a lot of usage in a language you do support, it might mean that there is a missed opportunity with your existing library.
+By tracking the user agent headers received by your API you can get a sense for what languages and libraries are used by your developers. If one language or library is used by many different API consumers, it might be worth supporting that language with an official API library.
 
 
 | Source | Example User Agent String | Description  | Can be overriden by a developer? |
